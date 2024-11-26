@@ -1,0 +1,78 @@
+body{
+	background-color:#f3f1f1;
+	font-family:consolas;
+	text-align:center;
+	padding:15px;
+	transition: background-color 0.3s, color 0.3s;
+	margin-top:80px;
+}
+body.dark-mode .container{
+	background-color:#333;
+	color:white;
+	border:2px solid #FFF9BF;
+}
+
+body.dark-mode{
+	background-color:#000000;
+	color:white;
+}
+.container{
+	background-color:#FFF9BF;
+	margin:0 auto;
+	width:40%;
+	border:2px solid ;
+	padding:10px;
+	border-radius:8px;
+}
+h1{
+	font-family:verdana;
+}
+textarea{
+	width:80%;
+	height:40px;
+	border-radius:8px;
+	font-size:15px;
+	margin-bottom:10px;
+}
+
+.btn button{
+	margin:5px;
+	padding:12px;
+	font-size:16px;
+	cursor:pointer;
+	border:1px solid;
+	border-radius:8px;
+	margin-bottom:0px;
+	
+}
+.btn button:hover{
+	background-color:#FEEE91;
+}
+.op{
+	border:1px solid;
+}
+
+#dl{
+	margin-right:10px;
+	position:relative;
+	display: flex;
+    align-items: center;
+}
+
+.dark-mode .btn button:hover{
+	background-color:#5f5f5d;
+	color:rgb(210, 232, 232);
+}
+#dl button{
+	position:absolute;
+	right:0;
+	border:0;
+	background-color:transparent;
+	padding:0;
+}
+
+#voiceIcon{
+        cursor: pointer;
+        width: 45px;
+        height: 45px;
+}
